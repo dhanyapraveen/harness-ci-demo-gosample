@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dhanyapraveen_harness_ci_demo_gosample_1717977169741-pr-trigger-input-set
+  identifier: Build_dhanyapraveen_harness_ci_demo_gosample_1717977169741prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ACDemo
+  pipeline:
+    identifier: Build_dhanyapraveen_harness_ci_demo_gosample_1717977169741
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
